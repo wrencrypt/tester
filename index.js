@@ -1,3 +1,4 @@
+console.log("hello");
 try {
     const express = require('express');
     const app = express();
@@ -50,3 +51,4 @@ catch (e) {
     console.error('Error on startup');
     console.error(e);
 }
+console.log("hello2");
